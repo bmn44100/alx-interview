@@ -8,7 +8,6 @@ def canUnlockAll(boxes):
     """
     a method that determines if all the boxes can be opened
     """
-    def canUnlockAll(boxes):
     locked_boxes = [0]
     for id, box_list in enumerate(boxes):
         if not box_list:
