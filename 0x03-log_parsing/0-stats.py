@@ -2,7 +2,7 @@
 """
 module for Log Parsing
 """
-from sys import stdin
+import sys
 
 
 def log_status(log_file, log_codes):
@@ -22,7 +22,7 @@ log_codes = {"200": 0, "301": 0, "400": 0, "401": 0,
              "403": 0, "404": 0, "405": 0, "500": 0}
 
 try:
-    for status in stdin:
+    for line in sys.stdin:
         num_logs += 1
         log_line = line.split()
 
