@@ -46,6 +46,7 @@ def nqueens(final, column, chess_board=[]):
         del final[-1]
     return chess_board
 
+
 if __name__ == '__main__':
 
     if len(sys.argv) != 2:
