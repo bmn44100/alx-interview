@@ -4,6 +4,7 @@
 module for making change
 """
 
+
 def makeChange(coins, total):
     """
     Given a pile of coins of different values, determine
@@ -23,5 +24,4 @@ def makeChange(coins, total):
 
             if current_coin != total:
                 return -1
-    
     return coins_change
