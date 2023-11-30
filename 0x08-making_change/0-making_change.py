@@ -22,6 +22,6 @@ def makeChange(coins, total):
                 coins_change += 1
                 current_coin += coin
 
-            if current_coin != total:
-                return -1
+        if current_coin != total:
+            return -1
     return coins_change
